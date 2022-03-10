@@ -1,0 +1,70 @@
+@import '../../assets/styles/variabel.scss';
+
+
+.suggest-products{
+
+    &_container{
+        background-color: $container-color;
+        position: relative;
+    }
+    &_header{
+        padding: 10px 16px;
+        background-color: $black-color-secondary;
+    }
+    
+    &_header h1{
+        color: $white-color;
+        
+    }
+}
+.suggest-products_menu{
+   
+    position:sticky;
+    top: 100px;
+    z-index: 50;
+    padding: 4px 0;
+    background-color:$container-color;
+    margin-bottom: 8px;
+    
+}
+.suggest-menu{
+
+    &_item{
+        background-color: $white-color;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+       
+        cursor: pointer;
+        border: 2px solid $white-color;
+        transition:0.4s;
+        
+    }
+    &_item.active{
+        
+        border: 2px solid $secondary-color;
+    }
+    &_icon{
+        width: 48px;
+        height: 48px;
+    }
+
+    &_name h2{
+        font-size:1.6rem;
+        color:$secondary-color;
+        margin-bottom: 0;
+    }
+}
+
+.product-item{
+    background-color: $white-color;
+    height:100%;
+}
+
+.suggest-footer{
+    padding: 8px;
+    margin-top: 15px;
+    text-align: center;
+   
+}

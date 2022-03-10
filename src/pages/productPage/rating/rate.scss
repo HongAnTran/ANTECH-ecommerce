@@ -1,0 +1,135 @@
+@import "../../../assets/styles/variabel.scss" ;
+
+.rates{
+    padding: 25px;
+    background-color: $white-color;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    border-radius: 0.125rem;
+}
+
+.rates-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbf8;
+    min-height: 5rem;
+    border: 1px solid #f9ede5;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    padding: 1.875rem;
+    
+    
+}
+.product-rating__score{
+    font-size: 3.4rem;
+    font-weight: 500;
+    color: $primary-color;
+}
+.product-rating__score2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $primary-color;
+}
+.product-rating-overview__filter{
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 32px;
+    line-height: 32px;
+    min-width: 100px;
+    text-align: center;
+    padding: 0 0.625rem;
+    color: rgba(0,0,0,.8);
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.09);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 8px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    text-transform: capitalize;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.product-rating-overview__filter--active{
+    border-color: #ee4d2d;
+    fill: #ee4d2d;
+    color: #ee4d2d
+
+
+}
+
+.rate-item{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.09);
+    display: flex;
+    padding: 1.25rem 0 1rem 1.25rem;
+
+    &_avatar{
+        margin-right: 12px;
+    }
+
+    &__info{
+        &_name{
+            text-decoration: none;
+            color: rgba(0,0,0,.87);
+            font-size: 1.2rem;
+        }
+        &_type{
+            font-size: 1.4rem;
+            color: rgba(0,0,0,.6);
+        }
+        &_comment{
+            margin-top: 12px;
+            position: relative;
+            margin: 1.2rem 0;
+            line-height: 1.25rem;
+            color: rgba(0,0,0,.87);
+            word-break: break-word;
+            white-space: pre-wrap;
+            font-weight: 400;
+            font-size: 1.6rem;
+        }
+        &_img{
+            width: 72px;
+            height: 72px;
+            cursor:zoom-in;
+            margin-bottom: 8px;
+            overflow: hidden;
+            
+            &-active{
+                cursor: zoom-out;
+                border: 2px solid #ee4d2d;
+                padding: 2px;
+            }
+            &-zoom{
+                transition: all .6s ease;
+                user-select: none;
+                max-width: 281px;
+                max-height: 500px;
+            }
+        }
+     
+    }
+}
+
+.rate-nodata{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &_text{
+        margin-top: 1.25rem;
+        font-size: 1.8rem;
+        color: rgba(0,0,0,.8);
+    }
+}
+.rate-item__like-active{
+    color: #ee4d2d
+}

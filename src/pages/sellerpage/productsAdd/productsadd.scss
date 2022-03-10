@@ -1,0 +1,87 @@
+@import '../../../assets/styles/variabel.scss';
+
+.products-add{
+    position: relative;
+  
+    &_header{
+        padding:8px;
+   
+    }
+   &_infobasic{
+       margin-top:10px;
+     
+        padding:12px;
+   }
+    &_sellect{
+        background-color: #fafafa;
+        margin-top:20px;
+        width: 30%;
+    }
+
+    &_value{
+            margin-top:20px;
+    }
+
+    &_valueSelect{
+          color:$primary-color;
+          font-size:1.8rem;
+          font-weight:bold  
+    }
+    &_pickIMG{
+display:flex;
+justify-content: space-evenly;
+    }
+
+
+
+    &_btn{
+        position:fixed;
+        bottom: 0px;
+        right: 126px;
+        padding: 16px 40px;
+        box-shadow: 0 -2px 6px 0 rgb(0 0 0 / 12%);
+        background-color:$container-color;
+    }
+}
+
+.products-add_infoSell{
+  
+    padding:12px;
+}
+.products-add_stock{
+    margin-top:12px;
+}
+.messages-error{
+    color:red;
+    margin-left: 110px;
+}
+
+.messages-error-des{
+    color:red;
+    
+}
+.product-add_distribute{
+    padding:12px 160px 12px 12px;
+}
+
+.product-list_distribute{
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+}
+
+.product-list_distribute-header{
+    background-color:#fafafa;
+}
+.product-list_header-col{
+    padding:8px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+
+.ant-form input[type='file']{
+display: none !important;
+}

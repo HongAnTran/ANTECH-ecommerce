@@ -1,0 +1,52 @@
+@import '../../assets/styles/variabel.scss';
+
+.card-deal{
+    padding:4px;
+
+    &:hover{
+        box-shadow:rgb(0 0 0 / 10%) 0px 0px 20px;
+        cursor: pointer;
+    }
+
+    &_name h4{
+        font-size:1.4rem;
+        font-weight:500;
+    }
+
+
+    &_cost{
+        color: rgb(255, 66, 78);
+        text-align: left;
+        font-size: 1.8rem;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    &_percent{
+        padding: 0px 2px;
+        line-height: 14px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 8px;
+        border: 1px solid rgb(255, 66, 78);
+        border-radius: 2px;
+        background-color: rgb(255, 240, 241);
+        color: rgb(255, 66, 78);
+    }
+}
+
+.ant-progress-bg{
+    height:20px !important;
+}
+
+.ant-progress-text{
+    position:absolute;
+    top:6px;
+    left:57px;
+    color:$white-color;
+    font-weight: 500;
+}
+
+.ant-progress-outer{
+    padding-right: 0!important;
+}

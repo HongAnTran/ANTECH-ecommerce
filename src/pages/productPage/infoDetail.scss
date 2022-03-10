@@ -1,0 +1,48 @@
+@import '../../assets/styles/variabel.scss';
+
+
+.info-detail{
+    padding: 25px;
+    background-color: $white-color;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    border-radius: 0.125rem;
+
+    &_header{
+        padding:4px;
+  
+
+        h1{
+            margin:0;
+        }
+    }
+
+    &_table{
+        margin-top: 20px;
+    }
+}
+
+.table{
+    max-width: 100%;
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.table-col-1{
+    width: 220px;
+    vertical-align: top;
+    color: rgb(79, 79, 79);
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: rgb(239, 239, 239) !important;
+    padding:10px 14px !important; 
+}
+.table-col-2{
+ 
+    vertical-align: top;
+    color: rgb(79, 79, 79);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding:10px 14px !important; 
+}
+

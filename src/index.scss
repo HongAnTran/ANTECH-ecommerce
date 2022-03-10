@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+
+@import './assets/styles/variabel.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size:62.5%;
+  font-family: 'Roboto',Helvetica,Arial,sans-serif !important;
+   scroll-behavior: auto !important;
+}
+body{
+  //  background-image: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/lunar_new_year/Background/bg_tgdd.png);
+  //  background-size: cover;
+  //  background-attachment: fixed;
+   background-color: #f5f5fa !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+background-color: rgba(0, 0, 0, 0.9);
+color:$white-color !important;
+padding:28px 18px!important;
+}
+
+
+.swiper-pagination-bullet{
+ background-color:rgba(0, 0, 0, 0.8);
+  width: 20px !important;
+  height: 10px !important;
+  border-radius:0 !important
+}
+.swiper-pagination-bullet-active{
+  background-color:$primary-color !important;
+  width: 20px !important;
+  height: 10px !important;
+  border-radius:0 !important
+}
+
+.margin-header{
+  margin-top:100px
+}
+
+@media (min-width: 1400px){
+  .container{
+    max-width: 1215px !important;
+  }
+}

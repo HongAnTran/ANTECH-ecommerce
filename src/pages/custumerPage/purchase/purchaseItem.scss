@@ -1,0 +1,211 @@
+@import '../../../assets/styles/variabel.scss';
+
+.Purchase-item {
+
+    background-color: $white-color;
+    padding: 24px 24px 12px;
+    margin: 12px 0px;
+
+    &_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 12px;
+
+    }
+
+    &_shop {
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    &_shopname {
+
+
+        max-width: 200px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: rgba(0, 0, 0, 0.8);
+
+    }
+
+    &_status {
+        line-height: 24px;
+        color: #ee4d2d;
+        text-align: right;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font-weight: 500;
+    }
+}
+
+
+.stardust-button {
+    padding: 4px 8px;
+    font-size: 12px;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    margin-left: 8px;
+
+}
+
+.stardust-button--primary {
+    background-color: rgb(238, 77, 45);
+    border-color: rgb(205, 48, 17);
+    color: rgb(255, 255, 255);
+}
+
+.shopee-svg-icon {
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: currentColor;
+    position: relative;
+
+    margin-right: 8px;
+}
+
+.pruchase-item_body {
+    display: flex;
+    word-wrap: break-word;
+    padding: 12px 0 12px;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: rgba(0, 0, 0, .87);
+    border-top: 1px solid rgba(0, 0, 0, .09);
+
+}
+
+.pruchase-item_img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+}
+
+.pruchase-item_info {
+    min-width: 0;
+    padding: 0 0 0 12px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    word-wrap: break-word;
+}
+
+.pruchase-item_bodyL {
+    display: flex;
+    padding: 0 12px 0 0;
+    flex: 1;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.pruchase-item_nameproduct {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 0 5px;
+    font-size: 16px;
+    line-height: 22px;
+    max-height: 48px;
+
+    span {
+        font-size: 1.7rem;
+        color: rgba(0,0,0,.87);
+        line-height: 22px;
+    }
+}
+
+.pruchase-item_price {
+    color: #ee4d2d;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.pruchase-item_bottom {
+    padding:16px 0;
+    border-top: 1px solid rgba(0, 0, 0, .09);
+}
+
+.pruchase-item_total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+._gajw{
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0,0,0,.8);
+}
+
+._1MS3t2 {
+    color: #ee4d2d;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.pruchase-item_btn{
+    margin-top: 8px;
+    padding: 22px 0px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    background: #fffefb;
+    align-items: center;
+}
+
+.pruchase-item_button{
+    margin-left: 10px;
+}
+
+.pruchase-item_interactive{
+    display: flex; 
+    align-items: center;
+}
+
+.rate-options{
+    padding:4px 140px;
+    display: flex; 
+    flex-wrap: wrap;
+
+    &_item{
+        padding:4px 8px;
+        font-size: 1.2rem;
+        margin: 8px;
+        border-radius: 22px;
+        border: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &:hover{
+            
+            background-color:#ee4d2d;
+            color:$white-color
+        }
+
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.rate-comments{
+    background-color:$container-color;
+    padding:12px;
+}

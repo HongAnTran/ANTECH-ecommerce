@@ -1,0 +1,37 @@
+.button-antech{
+    min-width: 150px;
+    min-height: 40px;
+    padding: 8px 20px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    border-radius: 4px;
+    outline: 0;
+    border: 1px solid rgba(0,0,0,.09);
+    color: #555;
+    background-color: rgb(255, 255, 255);
+
+    &:hover:not(.button-antech--primary) {
+        background-color: rgba(0,0,0,.02);
+    border: 1px solid rgba(0,0,0,.09);
+    }
+}
+
+.button-antech--primary{
+    background-color: #ee4d2d;
+    border-color: #cd3011;
+    color: #fff;
+
+    &:hover{
+        background-color: #d73211;
+    }
+
+}
+.button-antech--disabled{
+    opacity: .4;
+    color: #555!important;
+    background-color: rgba(0,0,0,.26)!important;
+    border: 1px solid rgba(0,0,0,.26)!important;
+    cursor:no-drop;
+}

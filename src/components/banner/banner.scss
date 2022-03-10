@@ -1,0 +1,28 @@
+@import '../../assets/styles/variabel.scss';
+
+.banner-container{
+    background-color: $container-color;
+    padding-bottom: 22px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.banner-title{
+    padding: 10px 16px;
+    background-color: $black-color-secondary;
+    margin-bottom: 8px;
+}
+
+.banner-title h1{
+    
+    color: $white-color;
+
+}
+
+
+
+.banner-img{
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}

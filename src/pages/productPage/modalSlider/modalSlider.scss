@@ -1,0 +1,50 @@
+@import "../../../../src/assets/styles/variabel.scss";
+
+.modal-slider_right{
+    padding: 25px 0 18px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-slider_name{
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 1.6rem;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 2rem;
+    padding-right: 8px;
+    margin-bottom: 12px;
+}
+.modal-slider_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+
+}
+
+.modal-slider_item{
+width: calc(33.33% - 0.75rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+    min-height:96px;
+    max-height:96px;
+    overflow: hidden;
+
+    margin-bottom: 0.75rem;
+    margin-right: 0.75rem;
+
+
+}
+
+.modal-slider_item.active{
+    border: 2px solid $secondary-color;
+}

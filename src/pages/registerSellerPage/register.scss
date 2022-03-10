@@ -1,0 +1,38 @@
+@import '../../assets/styles/variabel.scss';
+.register-business{
+    padding:30px 10px;
+    background-color: $white-color;
+
+    &_title{
+        display:flex;
+        align-items:center;
+    }
+}
+
+.logo-register{
+    width: 100px;
+
+}
+
+.register-from_container{
+    background-color: $container-color;
+    padding:12px;
+}
+
+
+
+.register-complete_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.register-complete_title{
+    margin: 20px 0;
+}
+
+.register-complete_sub{
+    margin: 20px 0;
+}

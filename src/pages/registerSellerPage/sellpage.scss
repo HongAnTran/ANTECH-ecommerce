@@ -1,0 +1,16 @@
+@import '../../assets/styles/variabel.scss';
+
+
+.sell-page{
+
+    &_container{
+
+
+        padding:8px;
+        background-color: $white-color;
+    }
+    &_header{
+        border-bottom: 1px solid #ccc;
+        padding:22px 350px;
+    }
+}

@@ -1,0 +1,30 @@
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+button,
+input{
+    outline: none;
+    border: none;
+}
+
+
+.img-logo{
+    width: 32px;
+    height: 32px;
+}
+.section{
+    margin-top:20px;
+}

@@ -1,0 +1,89 @@
+@import '../../assets/styles/variabel.scss';
+
+.shipping {
+
+    &-header {
+        padding: 20px 0;
+        background-color: $white-color;
+        box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px;
+    }
+
+    &-content {
+        margin-top: 20px;
+
+        &_title {
+            margin-bottom: 20px;
+            :nth-child(1) {
+                font-size: 1.6rem;
+                font-weight: bold;
+
+            }
+            :nth-child(2) {
+                font-size: 1.5rem;
+                font-weight: 500;
+                line-height: 1.1;
+            }
+        }
+    }
+
+    &-form {
+        background: rgb(247, 247, 247);
+        border: 1px solid rgb(221, 221, 221);
+        box-shadow: none;
+        border-radius: 0px 0px 3px 3px;
+        margin: 0px auto;
+        padding: 10px 15px;
+        transition: max-height 0.5s ease-out 0s;
+        max-height: 650px;
+      
+    }
+}
+
+.form-container{
+    max-width: 650px;
+    margin: 0px auto;   
+}
+
+.form-item{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px;
+
+}
+
+.form-lable span{
+    font-weight: 700;
+}
+
+.shipping-show_item{
+    padding: 10px 15px;
+    position: relative;
+    flex: 1 0 40%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    border-radius: 3px;
+   
+    margin: 2px 0 20px;
+}
+
+.shipping-item_header{
+    display:flex;
+    justify-content: space-between;
+
+    :nth-child(2){
+        color:$primary-color;
+    }
+}
+
+.shipping-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+}
+.shipping-item_btn{
+    margin-top: 8px;
+}
+.shipping-footer{
+    margin-top: 40px;
+}
